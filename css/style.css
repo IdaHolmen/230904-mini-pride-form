@@ -114,16 +114,10 @@ main {
 	border-radius: 10px;  
 }
 
-.form__sendin--buttons {
+.form__container--submit {
 	display: flex;
 	justify-content: space-evenly;
 	flex-direction: row;
 	margin-top: 30px;
-	width: 100%;
 }
-
-.send-button {
-	margin-right: 220px;
-}
-
 
