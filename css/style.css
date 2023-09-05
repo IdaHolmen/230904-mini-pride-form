@@ -30,5 +30,29 @@ main {
 	background-color: white;
 	border: 1px solid black;
 	padding: 10px 20px;
+	border-radius: 10px;
 }
 
+.form__container--name {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 700px;
+	background-color: white;
+	border: 1px solid black;
+	padding: 10px 20px;
+	margin: 50px auto 0px;
+	border-radius: 10px;
+}
+
+.form__container--age{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 700px;
+	background-color: white;
+	border: 1px solid black;
+	padding: 10px 20px;
+	margin: 50px auto 0px;
+	border-radius: 10px;  
+}
