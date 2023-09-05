@@ -38,6 +38,9 @@ main {
 	color: red;
 }
 
+/* Find a way to make the different classes with the same styling
+co-excist */
+
 .form__container--name {
 	display: flex;
 	justify-content: center;
@@ -137,7 +140,7 @@ main {
 	color: #9747FF;
 	background-color: #EEDFF4;
 	border: none;
-	padding: 10px 20px;
+	padding: 10px 10px;
 	border-radius: 10px;
 }
 
