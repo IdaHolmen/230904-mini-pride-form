@@ -121,3 +121,26 @@ main {
 	margin-top: 30px;
 }
 
+.send-button {
+	color: white;
+	background-color: #9747FF;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+
+.send-button:hover {
+	background-color: #DA47FF;
+}
+
+.empty-form-button {
+	color: #9747FF;
+	background-color: #EEDFF4;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+
+.empty-form-button:hover {
+	background-color: #F8F1FC;
+}
