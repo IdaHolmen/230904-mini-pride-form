@@ -16,6 +16,7 @@ a {
 
 body {
 	background-color: #EEDFF4;
+	margin-bottom: 70px;
 	
 }
 main {
@@ -75,4 +76,40 @@ main {
 
 .checkbox__info {
 	padding-bottom: 20px;
+}
+
+.form__container--email {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 700px;
+	background-color: white;
+	border: 1px solid black;
+	padding: 10px 20px;
+	margin: 50px auto 0px;
+	border-radius: 10px;  
+}
+
+.form__container--phonenumber {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 700px;
+	background-color: white;
+	border: 1px solid black;
+	padding: 10px 20px;
+	margin: 50px auto 0px;
+	border-radius: 10px;  
+}
+
+.form__container--other {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 700px;
+	background-color: white;
+	border: 1px solid black;
+	padding: 10px 20px;
+	margin: 50px auto 0px;
+	border-radius: 10px;  
 }
