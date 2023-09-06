@@ -45,6 +45,8 @@ main {
 /* Find a way to make the different classes with the same styling
 co-excist */
 
+/* try .class and "," */
+
 .form__container--name {
 	display: flex;
 	justify-content: center;
