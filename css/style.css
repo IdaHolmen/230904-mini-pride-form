@@ -121,3 +121,26 @@ footer {
 	text-align: center;
 	margin-top: 100px;
 }
+
+.chatbot__controls {
+	display: flex;
+	flex-flow: row nowrap;
+	border: 1px solid black;
+	padding: 20px 40px;
+	border-radius: 5px;
+	position: sticky;
+	bottom: 20;
+	right: 20;
+}
+
+.chatbot__text {
+	padding-right: 20px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.chatbot__controls:hover {
+	color: red;
+	border: 2px solid red;
+}
+
+
