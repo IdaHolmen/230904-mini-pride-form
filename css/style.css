@@ -122,25 +122,31 @@ footer {
 	margin-top: 100px;
 }
 
+.chatbot {
+	display: flex;
+	justify-content: flex-end;
+	position: sticky;
+	bottom: 40px;
+	right: 10px;
+}
+
 .chatbot__controls {
 	display: flex;
 	flex-flow: row nowrap;
 	border: 1px solid black;
 	padding: 20px 40px;
 	border-radius: 5px;
-	position: sticky;
-	bottom: 20;
-	right: 20;
+	background-color: white;
 }
 
 .chatbot__text {
-	padding-right: 20px;
+	padding-right: 10px;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .chatbot__controls:hover {
-	color: red;
-	border: 2px solid red;
+	color: #DA47FF;
+	border: 2px solid #DA47FF;
 }
 
 
