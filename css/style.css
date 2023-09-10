@@ -17,6 +17,14 @@
 	
 }
 
+.header__search:hover {
+	color: #DA47FF;
+}
+
+.header__menu:hover {
+	color: #DA47FF;
+}
+
 body {
 	background-color: #EEDFF4;
 	margin-bottom: 70px;
