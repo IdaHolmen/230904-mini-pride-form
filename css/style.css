@@ -47,7 +47,8 @@ co-excist */
 
 /* try .class and "," */
 
-.form__container--name {
+.form__container--name, .form__container--age, .form__container--email,
+.form__container--phonenumber, .form__container--other {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -59,7 +60,7 @@ co-excist */
 	border-radius: 10px;
 }
 
-.form__container--age {
+/* .form__container--age {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -69,7 +70,7 @@ co-excist */
 	padding: 10px 20px;
 	margin: 50px auto 0px;
 	border-radius: 10px;  
-}
+} */
 
 .form__container--checkbox {
 	display: flex;
@@ -87,7 +88,7 @@ co-excist */
 	padding-bottom: 20px;
 }
 
-.form__container--email {
+/* .form__container--email {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -97,9 +98,9 @@ co-excist */
 	padding: 10px 20px;
 	margin: 50px auto 0px;
 	border-radius: 10px;  
-}
+} */
 
-.form__container--phonenumber {
+/* .form__container--phonenumber {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -109,9 +110,9 @@ co-excist */
 	padding: 10px 20px;
 	margin: 50px auto 0px;
 	border-radius: 10px;  
-}
+} */
 
-.form__container--other {
+/* .form__container--other {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -121,7 +122,7 @@ co-excist */
 	padding: 10px 20px;
 	margin: 50px auto 0px;
 	border-radius: 10px;  
-}
+} */
 
 .form__container--submit {
 	display: flex;
