@@ -1,5 +1,5 @@
 #main-logo {
-	width: 300px;
+	width: 200px;
 }
 
 .header {
@@ -105,7 +105,7 @@ main {
 
 .empty-form__button {
 	color: #9747FF;
-	background-color: #EEDFF4;
+	background-color: transparent;
 	border: none;
 	padding: 10px 10px;
 	border-radius: 10px;
