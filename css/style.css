@@ -9,25 +9,21 @@
 }
 
 .header__menu, .header__search {
-	font-weight: normal;
-	color:black;
-	font-size: 20px;
-	margin: 20px;
+	color:var(--text-color);
+	font-size: var(--font-size-medium);
+	margin: var(--margin-small);
 	text-decoration: none;
 	
 }
 
-.header__search:hover {
-	color: #DA47FF;
+.header__search:hover, .header__menu:hover {
+	color: var(--color-accent-1);
 }
 
-.header__menu:hover {
-	color: #DA47FF;
-}
 
 body {
 	background: var(--background-color-rainbow);	
-	margin-bottom: 70px;
+	margin-bottom: var(--margin-large);
 	font-family: 'Inter';
 
 	
