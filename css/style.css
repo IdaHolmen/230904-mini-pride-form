@@ -26,7 +26,7 @@
 }
 
 body {
-	background-color: #EEDFF4;
+	background: linear-gradient(to right, #fbf8cc, #fde4cf, #ffcfd2, #f1c0e8, #cfbaf0, #a3c4f3, #90dbf4, #8eecf5, #98f5e1, #b9fbc0);
 	margin-bottom: 70px;
 	font-family: 'Inter';
 
@@ -103,7 +103,7 @@ main {
 	background-color: #DA47FF;
 }
 
-.empty-form-button {
+.empty-form__button {
 	color: #9747FF;
 	background-color: #EEDFF4;
 	border: none;
@@ -111,7 +111,7 @@ main {
 	border-radius: 10px;
 }
 
-.empty-form-button:hover {
+.empty-form__button:hover {
 	background-color: #F8F1FC;
 }
 
